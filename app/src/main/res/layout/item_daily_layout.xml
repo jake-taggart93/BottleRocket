@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/item_daily_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        tools:src="@drawable/ic_icon_weather_active_ic_heavy_rain_active" />
+
+    <TextView
+        android:id="@+id/item_daily_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        tools:text="12PM" />
+
+    <TextView
+        android:id="@+id/item_daily_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        tools:text="67!" />
+
+    <TextView
+        android:id="@+id/item_daily_rain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        tools:text="12%" />
+
+    <TextView
+        android:id="@+id/item_daily_wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        tools:text="1.2" />
+
+    <TextView
+        android:id="@+id/item_daily_humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        tools:text="12%" />
+</LinearLayout>

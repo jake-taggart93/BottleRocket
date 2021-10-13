@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BottleRocket</string>
+    <string name="temp_indicator">%1$.0f º</string>
+    <string name="time_indicator_am">%1$dAM</string>
+    <string name="time_indicator_pm">%1$sPM</string>
+    <string name="measure_percentage">%1$.2f %%</string>
+    <string name="wind_decimals">%1$.2f</string>
+    <string name="menu_title_delete_city">Delete City</string>
+    <string name="menu_title_radar_city">Radar city</string>
+    <string name="hint_text_city_name">City name</string>
+</resources>
